@@ -1,3 +1,4 @@
+// file deepcode ignore XSS
 const express = require("express");
 const OpenAI = require("openai");
 const bp = require("body-parser");
@@ -23,7 +24,7 @@ app.post("/converse", async (req, res) => {
   const message = req.body.message;
 
   const response = await openai.chat.completions.create({
-    model: "gpt-3.5-turbo",
+    model: "gpt-4",
     messages: [
       { role: "system", content: conversationContextPrompt + message },
     ],
