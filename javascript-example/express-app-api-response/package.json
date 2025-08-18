@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dompurify": "^3.2.6",
     "express": "^4.19.2",
+    "jsdom": "^26.1.0",
     "openai": "^4.41.0"
   }
 }
