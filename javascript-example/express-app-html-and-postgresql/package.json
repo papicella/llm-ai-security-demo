@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2",
+    "express": "^4.21.2",
     "openai": "^4.41.0",
     "pg": "^8.11.5",
     "sqlite3": "^5.1.7"
